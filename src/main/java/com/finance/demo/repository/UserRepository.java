@@ -1,4 +1,4 @@
-package repository;
+package com.finance.demo.repository;
 
 import com.finance.demo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
