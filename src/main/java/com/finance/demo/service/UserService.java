@@ -10,11 +10,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
 
-    @Autowired
-    private UserRepository userRepository;
+    @Autowired private UserRepository userRepository;
 
     public User saveUser(UserDTO userDTO) {
 
-        User user = new User(userDTO.getName(), userDTO.getEmail());
+        User user = new User(userDTO.name, userDTO.email);
     }
 }
